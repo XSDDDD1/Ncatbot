@@ -1,0 +1,46 @@
+[2025-12-13 16:13:50,962.962] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
+[2025-12-13 16:13:50,966.966] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2025-12-13 16:13:51,113.113] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-13 16:13:51,113.113] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2025-12-13 16:13:51,634.634] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「BOT」
+[2025-12-13 16:13:51,635.635] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「HelloPlugin」
+[2025-12-13 16:13:51,635.635] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「PokeReply」
+[2025-12-13 16:13:51,636.636] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetSongPlugin」
+[2025-12-13 16:13:51,637.637] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetVoicePlugin」
+[2025-12-13 16:13:51,642.642] INFO     [asyncio_0|MainProcess] DeepSeekPersonality (logger.py:info:129) | BOT 插件加载完成（配置内置）
+[2025-12-13 16:13:51,644.644] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [7]
+[2025-12-13 16:13:51,646.646] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-13 16:13:51,679.679] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2025-12-13 16:13:51,793.793] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-13 16:13:51,794.794] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 3032969320 启动成功
+[2025-12-13 16:13:59,951.951] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-13 16:14:01,812.812] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-12-13 16:14:47,186.186] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-12-13 16:14:47,189.189] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-12-13 16:14:47,189.189] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-12-13 16:14:47,190.190] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 BOT 卸载成功
+[2025-12-13 16:14:47,190.190] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 HelloPlugin 卸载成功
+[2025-12-13 16:14:47,190.190] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 PokeReply 卸载成功
+[2025-12-13 16:14:47,191.191] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 GetSongPlugin 卸载成功
+[2025-12-13 16:14:47,191.191] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 GetVoicePlugin 卸载成功
+[2025-12-13 16:14:47,195.195] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-12-13 16:15:19,027.027] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
+[2025-12-13 16:15:19,030.030] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2025-12-13 16:15:19,110.110] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-13 16:15:19,110.110] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2025-12-13 16:15:19,557.557] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「BOT」
+[2025-12-13 16:15:19,557.557] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「HelloPlugin」
+[2025-12-13 16:15:19,558.558] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「PokeReply」
+[2025-12-13 16:15:19,559.559] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetSongPlugin」
+[2025-12-13 16:15:19,559.559] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetVoicePlugin」
+[2025-12-13 16:15:19,567.567] INFO     [asyncio_0|MainProcess] DeepSeekPersonality (logger.py:info:129) | BOT 插件加载完成（配置内置）
+[2025-12-13 16:15:19,568.568] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [7]
+[2025-12-13 16:15:19,569.569] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-13 16:15:19,588.588] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2025-12-13 16:15:19,655.655] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-13 16:15:19,655.655] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 3032969320 启动成功
+[2025-12-13 16:15:28,754.754] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-13 16:15:30,314.314] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-12-13 16:16:55,034.034] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-12-13 16:20:22,937.937] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2025-12-13 16:21:01,173.173] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"

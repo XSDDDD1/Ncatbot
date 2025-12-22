@@ -1,0 +1,45 @@
+[2025-12-17 09:52:52,050.050] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
+[2025-12-17 09:52:52,056.056] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2025-12-17 09:52:52,261.261] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-17 09:52:52,262.262] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2025-12-17 09:52:53,296.296] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「BOT」
+[2025-12-17 09:52:53,297.297] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「HelloPlugin」
+[2025-12-17 09:52:53,298.298] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「PokeReply」
+[2025-12-17 09:52:53,299.299] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetSongPlugin」
+[2025-12-17 09:52:53,300.300] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetVoicePlugin」
+[2025-12-17 09:52:53,307.307] INFO     [asyncio_0|MainProcess] DeepSeekPersonality (logger.py:info:129) | BOT 插件加载完成（配置内置）
+[2025-12-17 09:52:53,309.309] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [7]
+[2025-12-17 09:52:53,310.310] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-17 09:52:53,349.349] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2025-12-17 09:52:53,443.443] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-17 09:52:53,444.444] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 3032969320 启动成功
+[2025-12-17 09:55:31,585.585] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-17 16:56:04,588.588] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-12-17 16:56:04,598.598] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-12-17 16:56:04,599.599] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-12-17 16:56:04,599.599] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 BOT 卸载成功
+[2025-12-17 16:56:04,600.600] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 HelloPlugin 卸载成功
+[2025-12-17 16:56:04,601.601] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 PokeReply 卸载成功
+[2025-12-17 16:56:04,601.601] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 GetSongPlugin 卸载成功
+[2025-12-17 16:56:04,602.602] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 GetVoicePlugin 卸载成功
+[2025-12-17 16:56:04,608.608] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-12-17 19:03:33,759.759] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
+[2025-12-17 19:03:33,761.761] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2025-12-17 19:03:40,319.319] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
+[2025-12-17 19:03:40,321.321] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2025-12-17 19:04:01,855.855] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
+[2025-12-17 19:04:01,858.858] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2025-12-17 19:04:02,002.002] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-17 19:04:02,002.002] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2025-12-17 19:04:02,826.826] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「BOT」
+[2025-12-17 19:04:02,827.827] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「HelloPlugin」
+[2025-12-17 19:04:02,828.828] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「PokeReply」
+[2025-12-17 19:04:02,829.829] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetSongPlugin」
+[2025-12-17 19:04:02,830.830] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetVoicePlugin」
+[2025-12-17 19:04:02,834.834] INFO     [asyncio_0|MainProcess] DeepSeekPersonality (logger.py:info:129) | BOT 插件加载完成（配置内置）
+[2025-12-17 19:04:02,836.836] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [7]
+[2025-12-17 19:04:02,838.838] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-17 19:04:02,864.864] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2025-12-17 19:04:02,968.968] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-17 19:04:02,969.969] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 3032969320 启动成功
+[2025-12-17 19:04:03,452.452] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']

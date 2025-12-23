@@ -114,7 +114,6 @@ class BOT(NcatBotPlugin):
     @on_group_at
     async def on_group_message(self, event:GroupMessageEvent):           #群聊
 
-
         if event.user_id == "2465838253":  #《《《《《《《《《《==================    过滤白缘这个÷ 他凭啥用老子猫娘？？？？？？？？
             return
 
@@ -155,7 +154,7 @@ class BOT(NcatBotPlugin):
 
             save_memory_key(key, [{"role": "user", "content": text}, {"role": "assistant", "content": reply}])
             if self.model == "deepseek-reasoner":
-                reasoning_content = response.choices[0].message.reasoning_content
+                reasoning_content = response.choices[0].message.reasoning_content             #保存聊天记录  如果是深度思考模式，输出思考内容
                 save_memory_key(key,[{"思考内容": reasoning_content}] )
 
             memory.append({"role": "user", "content": text})

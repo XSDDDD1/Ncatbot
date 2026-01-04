@@ -137,7 +137,7 @@ class BOT(NcatBotPlugin):
 
         memory = self.user_memory.get(key, [])            #记忆                
         messages = [{"role": "system", "content": system}]#定义记忆格式
-        messages += memory[-max_mem:]                     # 
+        messages += memory[-max_mem:]                     #将记忆接入 发送给ai的文本
         messages.append({"role": "user", "content": text})
 
         try:

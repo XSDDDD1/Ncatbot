@@ -54,8 +54,8 @@ class PokeReplyPlugin(NcatBotPlugin):
         if notice.group_id :
             await self.api.send_poke(user_id=notice.user_id,group_id=notice.group_id)# 回戳
             time.sleep(0.5)#先戳再回复
-            await self.api.post_group_msg(group_id=notice.group_id,text="不要戳我QAQ！")# 回复
+            await self.api.post_group_msg(group_id=notice.group_id,text="不要戳我QAQ！")  # 回复消息   (以后再搞随机文本)
         else :
             await self.api.send_poke(user_id=notice.user_id)# 回戳
             time.sleep(0.5)
-            await self.api.post_private_msg(notice.user_id,text="不要戳我QAQ！")# 回复
+            await self.api.post_private_msg(notice.user_id,text="不要戳我QAQ！")   # 回复消息

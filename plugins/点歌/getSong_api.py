@@ -5,9 +5,9 @@ def getsong(song , i):
     params = {
         "ckey": "PMZ6KAIL52O42ZEQJO2W",
         "msg": song, #获取歌曲
-        "g": 10,
+        "g": 10, 
         "n" : i,  #查询列表里的第几首
-        "br": 4,  #音质
+        "br": 5,  #音质
         "type": "mp3"
     }
 

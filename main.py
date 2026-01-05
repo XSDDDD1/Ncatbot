@@ -8,3 +8,6 @@ bot = BotClient()
 bot.run_frontend(
     bt_uin="3032969320",   # 机器人 QQ
 )  
+
+
+#pip install -U ncatbot -i https://mirrors.aliyun.com/pypi/simpley 

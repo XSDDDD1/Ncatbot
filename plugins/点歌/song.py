@@ -3,6 +3,7 @@ from ncatbot.core.event import BaseMessageEvent
 from ncatbot.plugin_system import on_message
 from .getSong_api import getsong
 from .searchSong_api import searchsong
+
 class GetSongPlugin(NcatBotPlugin):
     name = "GetSongPlugin"
     version = "1.0.1"

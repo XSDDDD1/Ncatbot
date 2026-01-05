@@ -1,43 +1,1818 @@
-[2025-12-31 11:35:35,029.029] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
-[2025-12-31 11:35:35,034.034] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
-[2025-12-31 11:35:35,174.174] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
-[2025-12-31 11:35:35,174.174] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
-[2025-12-31 11:35:35,872.872] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「BOT」
-[2025-12-31 11:35:35,873.873] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「HelloPlugin」
-[2025-12-31 11:35:35,874.874] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「PokeReply」
-[2025-12-31 11:35:35,874.874] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetSongPlugin」
-[2025-12-31 11:35:35,875.875] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetVoicePlugin」
-[2025-12-31 11:35:35,881.881] INFO     [asyncio_0|MainProcess] DeepSeekPersonality (logger.py:info:129) | BOT 插件加载完成（配置内置）
-[2025-12-31 11:35:35,881.881] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [7]
-[2025-12-31 11:35:35,884.884] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
-[2025-12-31 11:35:35,938.938] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
-[2025-12-31 11:35:36,079.079] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
-[2025-12-31 11:35:36,079.079] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 3032969320 启动成功
-[2025-12-31 11:37:15,727.727] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
-[2025-12-31 11:54:22,572.572] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
-[2025-12-31 11:54:22,575.575] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
-[2025-12-31 11:54:22,575.575] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
-[2025-12-31 11:54:22,576.576] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 BOT 卸载成功
-[2025-12-31 11:54:22,576.576] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 HelloPlugin 卸载成功
-[2025-12-31 11:54:22,576.576] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 PokeReply 卸载成功
-[2025-12-31 11:54:22,577.577] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 GetSongPlugin 卸载成功
-[2025-12-31 11:54:22,577.577] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 GetVoicePlugin 卸载成功
-[2025-12-31 11:54:22,582.582] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
-[2025-12-31 11:54:25,229.229] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: jlm,|WW^xBlLwyA0
-[2025-12-31 11:54:25,231.231] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
-[2025-12-31 11:54:25,344.344] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
-[2025-12-31 11:54:25,345.345] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
-[2025-12-31 11:54:25,791.791] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「BOT」
-[2025-12-31 11:54:25,792.792] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「HelloPlugin」
-[2025-12-31 11:54:25,793.793] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「PokeReply」
-[2025-12-31 11:54:25,793.793] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetSongPlugin」
-[2025-12-31 11:54:25,794.794] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 加载插件「GetVoicePlugin」
-[2025-12-31 11:54:25,802.802] INFO     [asyncio_0|MainProcess] DeepSeekPersonality (logger.py:info:129) | BOT 插件加载完成（配置内置）
-[2025-12-31 11:54:25,802.802] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [7]
-[2025-12-31 11:54:25,804.804] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
-[2025-12-31 11:54:25,825.825] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
-[2025-12-31 11:54:25,942.942] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
-[2025-12-31 11:54:25,943.943] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 3032969320 启动成功
-[2025-12-31 11:54:35,125.125] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
-[2025-12-31 14:03:24,975.975] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
-[2025-12-31 14:04:10,212.212] INFO     [MainThread|MainProcess] httpx (logger.py:info:129) | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:09:20,064.064] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 15:09:20,069.069] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 15:09:20,217.217] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 15:09:20,217.217] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 15:09:20,218.218] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 15:09:20,218.218] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 15:09:20,219.219] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 15:09:20,219.219] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 15:09:20,219.219] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 15:09:20,220.220] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 15:09:20,221.221] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 15:09:20,221.221] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 15:09:20,221.221] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 15:09:20,221.221] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 15:09:20,222.222] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 15:09:20,222.222] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 15:09:20,222.222] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 15:09:20,222.222] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 15:09:20,223.223] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 15:09:20,223.223] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 15:09:20,223.223] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 15:09:20,224.224] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 15:09:21,180.180] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 15:09:21,180.180] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 15:09:21,182.182] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 15:09:21,183.183] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 15:09:21,340.340] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 15:09:21,340.340] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 15:09:21,343.343] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 15:09:21,343.343] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 15:09:21,348.348] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 15:09:21,348.348] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 15:09:21,351.351] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 15:09:21,351.351] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 15:09:21,351.351] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 15:09:21,352.352] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 15:09:21,352.352] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 15:09:21,352.352] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 15:09:21,352.352] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 15:09:21,356.356] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 15:09:21,357.357] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 15:09:21,362.362] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 15:09:21,363.363] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 15:09:21,393.393] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 15:09:21,478.478] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 15:09:21,478.478] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 15:09:40,332.332] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 15:09:40,488.488] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 listen_all 时发生错误: 'PrivateMessageEvent' object has no attribute 'data'
+[2026-01-05 15:09:55,201.201] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:09:57,091.091] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 listen_all 时发生错误: 'PrivateMessageEvent' object has no attribute 'data'
+[2026-01-05 15:10:07,943.943] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:10:09,608.608] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 listen_all 时发生错误: 'PrivateMessageEvent' object has no attribute 'data'
+[2026-01-05 15:10:32,583.583] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 15:10:40,305.305] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 15:10:40,307.307] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 15:10:40,308.308] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 15:10:40,308.308] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 15:10:40,308.308] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 15:10:40,309.309] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 15:10:40,309.309] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 15:10:40,309.309] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 15:10:40,310.310] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 15:10:40,311.311] ERROR    asyncio 'base_events.py:1879' | Task exception was never retrieved
+future: <Task finished name='Task-48' coro=<AsyncClient.aclose() done, defined at C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_client.py:1978> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\adapter\adapter.py", line 97, in connect_websocket
+    message = await self.client.recv()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\connection.py", line 303, in recv
+    return await self.recv_messages.get(decode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\messages.py", line 159, in get
+    frame = await self.frames.get(not self.closed)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\messages.py", line 51, in get
+    await self.get_waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\client.py", line 324, in run_frontend
+    self.start(**kwargs)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\client.py", line 385, in start
+    asyncio.run(self.adapter.connect_websocket())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_client.py", line 1985, in aclose
+    await self._transport.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_transports\default.py", line 406, in aclose
+    await self._pool.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\anyio\streams\tls.py", line 234, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\anyio\_backends\_asyncio.py", line 1323, in aclose
+    self._transport.close()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 833, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[2026-01-05 15:10:40,325.325] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 15:10:40,325.325] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 15:10:40,326.326] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 15:10:40,326.326] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 15:10:40,326.326] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 15:10:40,327.327] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 15:10:40,329.329] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 15:10:51,647.647] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 15:10:51,649.649] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 15:10:51,738.738] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 15:10:51,738.738] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 15:10:51,739.739] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 15:10:51,740.740] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 15:10:51,740.740] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 15:10:51,740.740] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 15:10:51,741.741] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 15:10:51,741.741] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 15:10:51,742.742] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 15:10:51,742.742] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 15:10:51,742.742] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 15:10:51,743.743] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 15:10:51,743.743] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 15:10:51,743.743] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 15:10:51,743.743] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 15:10:51,744.744] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 15:10:51,744.744] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 15:10:51,745.745] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 15:10:51,745.745] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 15:10:51,745.745] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 15:10:52,196.196] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 15:10:52,197.197] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 15:10:52,199.199] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 15:10:52,199.199] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 15:10:52,325.325] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 15:10:52,326.326] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 15:10:52,327.327] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 15:10:52,328.328] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 15:10:52,330.330] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 15:10:52,331.331] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 15:10:52,333.333] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 15:10:52,333.333] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 15:10:52,333.333] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 15:10:52,333.333] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 15:10:52,333.333] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 15:10:52,334.334] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 15:10:52,334.334] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 15:10:52,337.337] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 15:10:52,340.340] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 15:10:52,344.344] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 15:10:52,345.345] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 15:10:52,364.364] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 15:10:52,430.430] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 15:10:52,430.430] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 15:11:09,335.335] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 15:11:30,234.234] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:11:40,072.072] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:19:40,495.495] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:20:39,155.155] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 15:21:29,431.431] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 15:22:12,717.717] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 15:22:49,190.190] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 15:22:49,193.193] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 15:22:49,194.194] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 15:22:49,194.194] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 15:22:49,194.194] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 15:22:49,195.195] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 15:22:49,195.195] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 15:22:49,195.195] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 15:22:49,195.195] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 15:22:49,198.198] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 15:22:49,198.198] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 15:22:49,199.199] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 15:22:49,199.199] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 15:22:49,200.200] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 15:22:49,201.201] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 15:22:49,202.202] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 15:22:51,836.836] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 15:22:51,838.838] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 15:22:51,937.937] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 15:22:51,937.937] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 15:22:51,938.938] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 15:22:51,939.939] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 15:22:51,939.939] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 15:22:51,940.940] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 15:22:51,940.940] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 15:22:51,941.941] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 15:22:51,942.942] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 15:22:51,942.942] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 15:22:51,942.942] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 15:22:51,942.942] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 15:22:51,943.943] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 15:22:51,943.943] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 15:22:51,943.943] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 15:22:51,944.944] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 15:22:51,944.944] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 15:22:51,944.944] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 15:22:51,944.944] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 15:22:51,945.945] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 15:22:52,551.551] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 15:22:52,552.552] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 15:22:52,554.554] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 15:22:52,554.554] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 15:22:52,704.704] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 15:22:52,705.705] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 15:22:52,706.706] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 15:22:52,707.707] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 15:22:52,711.711] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 15:22:52,712.712] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 15:22:52,716.716] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 15:22:52,716.716] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 15:22:52,716.716] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 15:22:52,717.717] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 15:22:52,717.717] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 15:22:52,717.717] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 15:22:52,717.717] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 15:22:52,722.722] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 15:22:52,727.727] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 15:22:52,732.732] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 15:22:52,733.733] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 15:22:52,764.764] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 15:22:52,836.836] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 15:22:52,836.836] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 15:23:00,033.033] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 15:23:01,020.020] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:24:07,558.558] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 16:24:07,560.560] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 16:24:07,658.658] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 16:24:07,658.658] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 16:24:07,659.659] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 16:24:07,660.660] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 16:24:07,660.660] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 16:24:07,660.660] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 16:24:07,660.660] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:24:07,661.661] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 16:24:07,662.662] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 16:24:07,662.662] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 16:24:07,662.662] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 16:24:07,662.662] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 16:24:07,663.663] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 16:24:07,663.663] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 16:24:07,663.663] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 16:24:07,664.664] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 16:24:07,665.665] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 16:24:07,665.665] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 16:24:07,665.665] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 16:24:07,665.665] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 16:24:08,159.159] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 16:24:08,159.159] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 16:24:08,161.161] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 16:24:08,162.162] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 16:24:08,294.294] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 16:24:08,294.294] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 16:24:08,296.296] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 16:24:08,296.296] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 16:24:08,299.299] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 16:24:08,300.300] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 16:24:08,303.303] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 16:24:08,303.303] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 16:24:08,303.303] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 16:24:08,303.303] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 16:24:08,303.303] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 16:24:08,304.304] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 16:24:08,304.304] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 16:24:08,307.307] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 16:24:08,310.310] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 16:24:08,313.313] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 16:24:08,314.314] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 16:24:08,335.335] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 16:24:08,406.406] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 16:24:08,407.407] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 16:24:21,809.809] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 16:24:22,890.890] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:24:24,731.731] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:24:24,733.733] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+          ^^^^^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:25:56,126.126] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:25:56,128.128] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+          ^^^^^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:26:01,108.108] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:26:07,171.171] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:26:07,172.172] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+          ^^^^^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:26:32,925.925] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:26:35,039.039] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:26:35,040.040] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+          ^^^^^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:28:04,167.167] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:32:31,436.436] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 16:32:31,439.439] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 16:32:31,439.439] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 16:32:31,440.440] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 16:32:31,440.440] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 16:32:31,440.440] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 16:32:31,440.440] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 16:32:31,441.441] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 16:32:31,441.441] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 16:32:31,445.445] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 16:32:31,445.445] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 16:32:31,446.446] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 16:32:31,446.446] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 16:32:31,447.447] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 16:32:31,447.447] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 16:32:31,448.448] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 16:32:33,650.650] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 16:32:33,653.653] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 16:32:33,774.774] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 16:32:33,774.774] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 16:32:33,776.776] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 16:32:33,776.776] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 16:32:33,777.777] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 16:32:33,777.777] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 16:32:33,778.778] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:32:33,778.778] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 16:32:33,778.778] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 16:32:33,779.779] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 16:32:33,779.779] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 16:32:33,780.780] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 16:32:33,780.780] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 16:32:33,781.781] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 16:32:33,781.781] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 16:32:33,782.782] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 16:32:33,782.782] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 16:32:33,782.782] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 16:32:33,783.783] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 16:32:33,783.783] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 16:32:34,253.253] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 16:32:34,253.253] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 16:32:34,256.256] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 16:32:34,256.256] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 16:32:34,404.404] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 16:32:34,405.405] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 16:32:34,406.406] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 16:32:34,407.407] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 16:32:34,409.409] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 16:32:34,410.410] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 16:32:34,412.412] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 16:32:34,412.412] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 16:32:34,412.412] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 16:32:34,412.412] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 16:32:34,412.412] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 16:32:34,412.412] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 16:32:34,413.413] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 16:32:34,416.416] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 16:32:34,420.420] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 16:32:34,424.424] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 16:32:34,425.425] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 16:32:34,445.445] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 16:32:34,533.533] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 16:32:34,538.538] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 16:32:42,179.179] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 16:32:43,180.180] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:32:44,566.566] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:32:44,568.568] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = str(event.user_id)
+              ^^^^^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:33:08,966.966] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:37:54,750.750] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:37:54,756.756] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:38:05,532.532] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:38:05,533.533] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:38:09,451.451] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:38:09,452.452] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:38:13,933.933] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:38:13,934.934] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:38:34,173.173] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:38:34,174.174] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:43:12,860.860] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:43:12,861.861] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:43:16,511.511] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:43:16,512.512] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:43:18,443.443] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:43:21,516.516] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:43:21,518.518] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:43:23,215.215] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:43:23,217.217] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:43:28,744.744] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:43:31,215.215] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:43:31,217.217] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:44:58,590.590] ERROR    EventBus 'event_bus.py:69' | 执行处理程序 listen_all 时发生错误: 'NcatBotEvent' object has no attribute 'user_id'
+[2026-01-05 16:44:58,591.591] INFO     EventBus 'event_bus.py:70' | 错误堆栈: Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\event\event_bus.py", line 64, in _run_handler
+    return await handler(event)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么\what_to_eat.py", line 67, in listen_all
+    uid = event.user_id
+              ^^^^^^^^^
+AttributeError: 'NcatBotEvent' object has no attribute 'user_id'
+
+[2026-01-05 16:45:02,052.052] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 16:45:02,055.055] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 16:45:02,056.056] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 16:45:02,056.056] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 16:45:02,056.056] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 16:45:02,056.056] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 16:45:02,057.057] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 16:45:02,057.057] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 16:45:02,057.057] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 16:45:02,061.061] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 16:45:02,061.061] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 16:45:02,061.061] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 16:45:02,062.062] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 16:45:02,062.062] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 16:45:02,062.062] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 16:45:02,063.063] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 16:45:27,853.853] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 16:45:27,856.856] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 16:45:27,947.947] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 16:45:27,947.947] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 16:45:27,948.948] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 16:45:27,948.948] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 16:45:27,949.949] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 16:45:27,949.949] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 16:45:27,950.950] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:45:27,950.950] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 16:45:27,950.950] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 16:45:27,951.951] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 16:45:27,951.951] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 16:45:27,951.951] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 16:45:27,951.951] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 16:45:27,952.952] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 16:45:27,952.952] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 16:45:27,952.952] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 16:45:27,953.953] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 16:45:27,953.953] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 16:45:27,953.953] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 16:45:27,953.953] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 16:45:28,499.499] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 16:45:28,500.500] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 16:45:28,501.501] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 16:45:28,502.502] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 16:45:28,631.631] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 16:45:28,632.632] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 16:45:28,633.633] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 16:45:28,634.634] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 16:45:28,637.637] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 16:45:28,638.638] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 16:45:28,641.641] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 16:45:28,641.641] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 16:45:28,641.641] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 16:45:28,641.641] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 16:45:28,641.641] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 16:45:28,642.642] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 16:45:28,642.642] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 16:45:28,645.645] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 16:45:28,650.650] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 16:45:28,653.653] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 16:45:28,654.654] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 16:45:28,673.673] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 16:45:28,757.757] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 16:45:28,758.758] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 16:45:35,135.135] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 16:45:36,088.088] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:45:47,849.849] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:45:56,411.411] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 16:49:00,235.235] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 16:49:16,338.338] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:49:28,406.406] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:49:49,531.531] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:51:25,146.146] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 16:51:35,187.187] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:57:07,406.406] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:57:08,334.334] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 16:57:08,336.336] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 16:57:08,337.337] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 16:57:08,338.338] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 16:57:08,338.338] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 16:57:08,338.338] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 16:57:08,338.338] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 16:57:08,339.339] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 16:57:08,339.339] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 16:57:08,339.339] ERROR    asyncio 'base_events.py:1879' | Task exception was never retrieved
+future: <Task finished name='Task-72' coro=<AsyncClient.aclose() done, defined at C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_client.py:1978> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\adapter\adapter.py", line 97, in connect_websocket
+    message = await self.client.recv()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\connection.py", line 303, in recv
+    return await self.recv_messages.get(decode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\messages.py", line 159, in get
+    frame = await self.frames.get(not self.closed)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\messages.py", line 51, in get
+    await self.get_waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\client.py", line 324, in run_frontend
+    self.start(**kwargs)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\client.py", line 385, in start
+    asyncio.run(self.adapter.connect_websocket())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_client.py", line 1985, in aclose
+    await self._transport.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_transports\default.py", line 406, in aclose
+    await self._pool.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\anyio\streams\tls.py", line 234, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\anyio\_backends\_asyncio.py", line 1323, in aclose
+    self._transport.close()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 833, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[2026-01-05 16:57:08,347.347] ERROR    asyncio 'base_events.py:1879' | Task exception was never retrieved
+future: <Task finished name='Task-73' coro=<AsyncClient.aclose() done, defined at C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_client.py:1978> exception=RuntimeError('Event loop is closed')>
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\adapter\adapter.py", line 97, in connect_websocket
+    message = await self.client.recv()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\connection.py", line 303, in recv
+    return await self.recv_messages.get(decode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\messages.py", line 159, in get
+    frame = await self.frames.get(not self.closed)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\websockets\asyncio\messages.py", line 51, in get
+    await self.get_waiter
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\client.py", line 324, in run_frontend
+    self.start(**kwargs)
+    ~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\core\client.py", line 385, in start
+    asyncio.run(self.adapter.connect_websocket())
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_client.py", line 1985, in aclose
+    await self._transport.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpx\_transports\default.py", line 406, in aclose
+    await self._pool.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection_pool.py", line 353, in aclose
+    await self._close_connections(closing_connections)
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_async\http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\httpcore\_backends\anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\anyio\streams\tls.py", line 234, in aclose
+    await self.transport_stream.aclose()
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\anyio\_backends\_asyncio.py", line 1323, in aclose
+    self._transport.close()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\proactor_events.py", line 109, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 833, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+[2026-01-05 16:57:08,354.354] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 16:57:08,355.355] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 16:57:08,355.355] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 16:57:08,356.356] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 16:57:08,356.356] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 16:57:08,356.356] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 16:57:08,358.358] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 16:57:12,088.088] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 16:57:12,090.090] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 16:57:12,205.205] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 16:57:12,205.205] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 16:57:12,206.206] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 16:57:12,207.207] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 16:57:12,207.207] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 16:57:12,208.208] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 16:57:12,208.208] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:57:12,209.209] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 16:57:12,209.209] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 16:57:12,217.217] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 16:57:12,217.217] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:57:12,218.218] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 16:57:12,218.218] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 16:57:12,219.219] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 16:57:12,219.219] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 16:57:12,219.219] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 16:57:12,219.219] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 16:57:12,220.220] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 16:57:12,220.220] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 16:57:12,220.220] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 16:57:12,221.221] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 16:57:12,221.221] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 16:57:12,678.678] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 16:57:12,679.679] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 16:57:12,680.680] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 16:57:12,681.681] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 16:57:12,687.687] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 16:57:12,687.687] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 16:57:12,816.816] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 16:57:12,816.816] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 16:57:12,817.817] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 16:57:12,818.818] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 16:57:12,820.820] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 16:57:12,821.821] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 16:57:12,823.823] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 16:57:12,823.823] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 16:57:12,823.823] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 16:57:12,823.823] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 16:57:12,823.823] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 16:57:12,824.824] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 16:57:12,824.824] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 16:57:12,824.824] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 16:57:12,827.827] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 16:57:12,839.839] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:16' | 插件 KFC_VME50 加载成功
+[2026-01-05 16:57:12,841.841] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 16:57:12,844.844] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 16:57:12,846.846] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 16:57:12,871.871] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 16:57:12,949.949] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 16:57:12,949.949] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 16:57:27,242.242] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 16:57:27,242.242] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc_cmd 时发生错误: 'KFC_V50' object has no attribute 'COPY'
+[2026-01-05 16:57:33,543.543] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc_cmd 时发生错误: 'KFC_V50' object has no attribute 'COPY'
+[2026-01-05 16:57:41,246.246] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 16:57:41,249.249] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 16:57:41,249.249] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 16:57:41,250.250] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 16:57:41,250.250] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 16:57:41,251.251] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 16:57:41,251.251] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 16:57:41,251.251] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 16:57:41,254.254] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 16:57:41,255.255] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 16:57:41,257.257] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 16:57:41,258.258] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 16:57:41,258.258] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 16:57:41,259.259] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 16:57:41,259.259] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 16:57:41,259.259] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 16:57:41,259.259] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 16:57:41,260.260] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 16:57:44,389.389] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 16:57:44,391.391] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 16:57:44,495.495] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 16:57:44,496.496] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 16:57:44,496.496] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 16:57:44,497.497] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 16:57:44,497.497] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 16:57:44,498.498] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 16:57:44,499.499] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 16:57:44,500.500] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 16:57:44,500.500] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 16:57:44,501.501] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 16:57:44,501.501] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 16:57:44,501.501] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 16:57:44,502.502] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 16:57:44,502.502] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 16:57:44,502.502] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 16:57:44,503.503] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 16:57:44,503.503] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 16:57:44,503.503] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 16:57:44,503.503] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 16:57:44,504.504] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 16:57:44,504.504] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 16:57:44,504.504] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 16:57:44,961.961] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 16:57:44,961.961] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 16:57:44,963.963] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 16:57:44,963.963] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 16:57:44,968.968] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 16:57:44,968.968] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 16:57:45,090.090] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 16:57:45,091.091] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 16:57:45,093.093] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 16:57:45,093.093] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 16:57:45,096.096] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 16:57:45,097.097] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 16:57:45,100.100] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 16:57:45,100.100] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 16:57:45,100.100] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 16:57:45,100.100] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 16:57:45,100.100] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 16:57:45,101.101] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 16:57:45,101.101] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 16:57:45,101.101] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 16:57:45,105.105] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 16:57:45,107.107] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:16' | 插件 KFC_VME50 加载成功
+[2026-01-05 16:57:45,109.109] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 16:57:45,116.116] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 16:57:45,118.118] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 16:57:45,146.146] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 16:57:45,209.209] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 16:57:45,210.210] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 16:57:59,701.701] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 16:59:36,704.704] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:14,283.283] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:16,289.289] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:20,879.879] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:24,866.866] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:30,607.607] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:31,941.941] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:03:35,557.557] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:03:35,559.559] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:03:35,559.559] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:03:35,560.560] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:03:35,560.560] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:03:35,561.561] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:03:35,561.561] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:03:35,561.561] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:03:35,562.562] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:03:35,562.562] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:03:35,565.565] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:03:35,566.566] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:03:35,566.566] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:03:35,567.567] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:03:35,567.567] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:03:35,568.568] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:03:35,568.568] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:03:35,570.570] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:03:37,790.790] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:03:37,792.792] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:03:37,910.910] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:03:37,910.910] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:03:37,912.912] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:03:37,912.912] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:03:37,913.913] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:03:37,913.913] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:03:37,914.914] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:03:37,914.914] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:03:37,915.915] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:03:37,915.915] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:03:37,915.915] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:03:37,915.915] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:03:37,916.916] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:03:37,916.916] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:03:37,917.917] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:03:37,918.918] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:03:37,918.918] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:03:37,918.918] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:03:37,919.919] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:03:37,919.919] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:03:37,919.919] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:03:37,920.920] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:03:38,391.391] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:03:38,392.392] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:03:38,394.394] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:03:38,394.394] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:03:38,399.399] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:03:38,399.399] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:03:38,572.572] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:03:38,576.576] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:03:38,581.581] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:03:38,588.588] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:03:38,598.598] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:03:38,599.599] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:03:38,603.603] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:03:38,603.603] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:03:38,604.604] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:03:38,606.606] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:03:38,611.611] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:03:38,612.612] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:03:38,612.612] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:03:38,612.612] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:03:38,618.618] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:03:38,640.640] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:16' | 插件 KFC_VME50 加载成功
+[2026-01-05 17:03:38,647.647] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:03:38,671.671] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:03:38,672.672] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:03:38,722.722] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:03:38,829.829] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:03:38,829.829] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:03:39,609.609] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:03:40,706.706] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:49,361.361] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:03:51,482.482] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:04:18,325.325] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:04:22,594.594] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:04:29,991.991] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:05:27,448.448] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:18:22,060.060] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:21:18,191.191] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:21:20,874.874] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:21:20,877.877] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:21:20,878.878] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:21:20,878.878] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:21:20,878.878] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:21:20,879.879] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:21:20,879.879] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:21:20,879.879] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:21:20,880.880] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:21:20,880.880] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:21:20,883.883] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:21:20,884.884] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:21:20,884.884] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:21:20,885.885] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:21:20,885.885] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:21:20,885.885] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:21:20,886.886] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:21:20,887.887] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:21:23,211.211] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:21:23,213.213] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:21:23,319.319] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:21:23,319.319] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:21:23,320.320] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:21:23,320.320] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:21:23,321.321] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:21:23,321.321] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:21:23,321.321] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:21:23,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:21:23,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:21:23,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:21:23,323.323] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:21:23,323.323] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:21:23,323.323] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:21:23,323.323] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:21:23,324.324] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:21:23,324.324] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:21:23,325.325] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:21:23,325.325] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:21:23,325.325] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:21:23,325.325] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:21:23,326.326] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:21:23,326.326] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:21:23,781.781] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:21:23,782.782] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:21:23,783.783] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:21:23,784.784] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:21:23,787.787] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:21:23,788.788] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:21:23,929.929] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:21:23,930.930] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:21:23,931.931] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:21:23,931.931] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:21:23,934.934] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:21:23,935.935] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:21:23,937.937] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:21:23,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:21:23,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:21:23,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:21:23,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:21:23,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:21:23,939.939] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:21:23,939.939] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:21:23,942.942] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:21:23,946.946] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:21:23,952.952] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:21:23,958.958] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:21:23,978.978] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:21:24,075.075] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:21:24,076.076] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:21:24,152.152] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:21:24,153.153] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: [Errno 2] No such file or directory: './kfc.json'
+[2026-01-05 17:23:08,711.711] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:24:04,663.663] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:24:19,159.159] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:24:20,514.514] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:24:46,913.913] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:24:46,915.915] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:24:46,916.916] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:24:46,916.916] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:24:46,916.916] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:24:46,916.916] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:24:46,917.917] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:24:46,917.917] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:24:46,917.917] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:24:46,917.917] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:24:46,920.920] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:24:46,921.921] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:24:46,921.921] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:24:46,922.922] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:24:46,922.922] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:24:46,923.923] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:24:46,923.923] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:24:46,924.924] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:24:54,008.008] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:24:54,010.010] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:24:54,112.112] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:24:54,113.113] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:24:54,114.114] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:24:54,114.114] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:24:54,114.114] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:24:54,114.114] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:24:54,115.115] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:24:54,115.115] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:24:54,116.116] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:24:54,116.116] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:24:54,116.116] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:24:54,116.116] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:24:54,116.116] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:24:54,117.117] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:24:54,117.117] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:24:54,117.117] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:24:54,117.117] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:24:54,118.118] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:24:54,118.118] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:24:54,118.118] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:24:54,118.118] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:24:54,119.119] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:24:54,578.578] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:24:54,579.579] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:24:54,581.581] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:24:54,582.582] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:24:54,585.585] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:24:54,586.586] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:24:54,719.719] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:24:54,720.720] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:24:54,721.721] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:24:54,722.722] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:24:54,725.725] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:24:54,726.726] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:24:54,728.728] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:24:54,729.729] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:24:54,729.729] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:24:54,729.729] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:24:54,729.729] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:24:54,729.729] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:24:54,730.730] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:24:54,730.730] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:24:54,734.734] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:24:54,739.739] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:24:54,743.743] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:24:54,744.744] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:24:54,763.763] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:24:54,828.828] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:24:54,828.828] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:24:57,086.086] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:25:02,675.675] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: [Errno 2] No such file or directory: '/kfc.json'
+[2026-01-05 17:25:33,348.348] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:25:33,931.931] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:25:33,933.933] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:25:33,933.933] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:25:33,933.933] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:25:33,933.933] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:25:33,934.934] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:25:33,934.934] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:25:33,937.937] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:25:33,937.937] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:25:33,937.937] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:25:33,941.941] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:25:33,941.941] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:25:33,942.942] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:25:33,942.942] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:25:33,942.942] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:25:33,943.943] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:25:33,943.943] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:25:33,944.944] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:25:39,964.964] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:25:39,967.967] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:25:40,054.054] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:25:40,054.054] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:25:40,055.055] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:25:40,056.056] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:25:40,056.056] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:25:40,056.056] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:25:40,057.057] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:25:40,057.057] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:25:40,057.057] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:25:40,058.058] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:25:40,058.058] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:25:40,058.058] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:25:40,058.058] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:25:40,059.059] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:25:40,059.059] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:25:40,059.059] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:25:40,060.060] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:25:40,060.060] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:25:40,060.060] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:25:40,060.060] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:25:40,061.061] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:25:40,061.061] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:25:40,505.505] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:25:40,506.506] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:25:40,508.508] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:25:40,508.508] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:25:40,511.511] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:25:40,512.512] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:25:40,626.626] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:25:40,627.627] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:25:40,628.628] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:25:40,629.629] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:25:40,631.631] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:25:40,632.632] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:25:40,634.634] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:25:40,634.634] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:25:40,635.635] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:25:40,635.635] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:25:40,635.635] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:25:40,635.635] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:25:40,635.635] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:25:40,636.636] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:25:40,640.640] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:25:40,646.646] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:25:40,650.650] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:25:40,651.651] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:25:40,669.669] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:25:40,733.733] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:25:40,733.733] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:25:47,811.811] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:25:48,865.865] INFO     httpx '_client.py:1740' | HTTP Request: POST https://api.deepseek.com/chat/completions "HTTP/1.1 200 OK"
+[2026-01-05 17:25:58,769.769] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: [Errno 2] No such file or directory: './kfc.json'
+[2026-01-05 17:26:42,457.457] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:26:44,163.163] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:26:44,167.167] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:26:44,167.167] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:26:44,168.168] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:26:44,168.168] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:26:44,168.168] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:26:44,169.169] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:26:44,169.169] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:26:44,169.169] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:26:44,170.170] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:26:44,173.173] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:26:44,174.174] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:26:44,174.174] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:26:44,175.175] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:26:44,175.175] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:26:44,175.175] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:26:44,176.176] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:26:44,178.178] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:26:46,307.307] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:26:46,309.309] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:26:46,406.406] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:26:46,406.406] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:26:46,407.407] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:26:46,407.407] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:26:46,408.408] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:26:46,408.408] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:26:46,408.408] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:26:46,409.409] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:26:46,409.409] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:26:46,409.409] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:26:46,410.410] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:26:46,410.410] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:26:46,410.410] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:26:46,410.410] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:26:46,411.411] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:26:46,411.411] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:26:46,411.411] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:26:46,411.411] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:26:46,412.412] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:26:46,412.412] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:26:46,412.412] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:26:46,413.413] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:26:46,869.869] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:26:46,869.869] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:26:46,871.871] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:26:46,872.872] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:26:46,873.873] ERROR    PluginLoader 'loader.py:160' | 导入模块 KFC_VME50 时出错: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (KFC_V50.py, line 18)
+[2026-01-05 17:26:46,873.873] ERROR    PluginLoader 'loader.py:139' | 加载模块 KFC_VME50 失败: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (KFC_V50.py, line 18)
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\loader.py", line 134, in load_module
+    module = self._import_single(name, path)
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\loader.py", line 152, in _import_single
+    return importlib.import_module(name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1027, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50\__init__.py", line 1, in <module>
+    from .KFC_V50 import KFC_V50
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50\KFC_V50.py", line 18
+    with open("C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50\kfc.json", 'r', encoding='utf-8') as f:
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2026-01-05 17:26:46,876.876] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:26:46,999.999] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:26:47,000.000] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:26:47,001.001] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:26:47,002.002] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:26:47,005.005] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:26:47,006.006] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:26:47,008.008] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:26:47,008.008] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:26:47,008.008] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:26:47,008.008] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:26:47,009.009] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:26:47,009.009] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:26:47,009.009] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:26:47,013.013] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:26:47,018.018] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:26:47,021.021] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 17:26:47,022.022] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:26:47,043.043] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:26:47,153.153] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:26:47,154.154] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:26:50,614.614] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:27:14,030.030] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:27:14,033.033] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:27:14,034.034] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:27:14,034.034] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:27:14,035.035] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:27:14,035.035] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:27:14,035.035] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:27:14,038.038] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:27:14,039.039] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:27:14,042.042] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:27:14,042.042] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:27:14,043.043] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:27:14,043.043] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:27:14,043.043] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:27:14,043.043] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:27:14,045.045] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:27:17,682.682] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:27:17,684.684] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:27:17,774.774] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:27:17,774.774] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:27:17,775.775] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:27:17,775.775] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:27:17,776.776] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:27:17,776.776] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:27:17,776.776] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:27:17,776.776] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:27:17,777.777] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:27:17,778.778] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:27:17,778.778] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:27:17,778.778] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:27:17,778.778] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:27:17,778.778] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:27:17,779.779] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:27:17,779.779] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:27:17,779.779] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:27:17,779.779] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:27:17,779.779] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:27:17,779.779] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:27:17,780.780] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:27:17,780.780] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:27:18,211.211] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:27:18,212.212] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:27:18,213.213] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:27:18,214.214] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:27:18,216.216] ERROR    PluginLoader 'loader.py:160' | 导入模块 KFC_VME50 时出错: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (KFC_V50.py, line 18)
+[2026-01-05 17:27:18,216.216] ERROR    PluginLoader 'loader.py:139' | 加载模块 KFC_VME50 失败: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape (KFC_V50.py, line 18)
+Traceback (most recent call last):
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\loader.py", line 134, in load_module
+    module = self._import_single(name, path)
+  File "C:\Users\DELL Vostro\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\ncatbot\plugin_system\loader.py", line 152, in _import_single
+    return importlib.import_module(name)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.2544.0_x64__qbz5n2kfra8p0\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1027, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50\__init__.py", line 1, in <module>
+    from .KFC_V50 import KFC_V50
+  File "C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50\KFC_V50.py", line 18
+    with open("C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50\kfc.json", 'r', encoding='utf-8') as f:
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 2-3: truncated \UXXXXXXXX escape
+[2026-01-05 17:27:18,218.218] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:27:18,352.352] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:27:18,353.353] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:27:18,354.354] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:27:18,355.355] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:27:18,357.357] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:27:18,358.358] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:27:18,360.360] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:27:18,360.360] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:27:18,360.360] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:27:18,360.360] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:27:18,360.360] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:27:18,360.360] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:27:18,361.361] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:27:18,364.364] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:27:18,369.369] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:27:18,373.373] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [8]
+[2026-01-05 17:27:18,374.374] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:27:18,392.392] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:27:18,458.458] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:27:18,458.458] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:27:26,650.650] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:27:57,004.004] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:27:57,480.480] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:27:57,491.491] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:27:57,491.491] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:27:57,492.492] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:27:57,493.493] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:27:57,493.493] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:27:57,494.494] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:27:57,494.494] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:27:57,499.499] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:27:57,502.502] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:27:57,503.503] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:27:57,504.504] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:27:57,504.504] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:27:57,505.505] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:27:57,506.506] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:27:57,507.507] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:27:59,782.782] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:27:59,784.784] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:27:59,875.875] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:27:59,875.875] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:27:59,876.876] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:27:59,876.876] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:27:59,877.877] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:27:59,877.877] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:27:59,877.877] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:27:59,878.878] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:27:59,878.878] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:27:59,879.879] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:27:59,879.879] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:27:59,879.879] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:27:59,879.879] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:27:59,879.879] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:27:59,880.880] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:27:59,880.880] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:27:59,880.880] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:27:59,880.880] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:27:59,881.881] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:27:59,881.881] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:27:59,881.881] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:27:59,881.881] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:28:00,354.354] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:28:00,355.355] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:28:00,357.357] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:28:00,358.358] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:28:00,362.362] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:28:00,363.363] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:28:00,583.583] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:28:00,583.583] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:28:00,585.585] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:28:00,585.585] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:28:00,588.588] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:28:00,588.588] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:28:00,590.590] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:28:00,591.591] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:28:00,595.595] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:28:00,599.599] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:28:00,602.602] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:28:00,603.603] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:28:00,621.621] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:28:00,689.689] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:28:00,689.689] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:28:05,827.827] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:31:54,367.367] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:31:56,200.200] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:31:56,203.203] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:31:56,203.203] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:31:56,204.204] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:31:56,204.204] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:31:56,204.204] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:31:56,204.204] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:31:56,205.205] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:31:56,205.205] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:31:56,205.205] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:31:56,209.209] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:31:56,209.209] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:31:56,210.210] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:31:56,210.210] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:31:56,210.210] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:31:56,211.211] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:31:56,211.211] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:31:56,212.212] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:31:59,121.121] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:31:59,123.123] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:31:59,213.213] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:31:59,213.213] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:31:59,220.220] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:31:59,221.221] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:31:59,221.221] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:31:59,222.222] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:31:59,223.223] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:31:59,223.223] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:31:59,223.223] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:31:59,223.223] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:31:59,224.224] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:31:59,224.224] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:31:59,224.224] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:31:59,224.224] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:31:59,225.225] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:31:59,225.225] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:31:59,225.225] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:31:59,225.225] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:31:59,225.225] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:31:59,226.226] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:31:59,226.226] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:31:59,226.226] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:31:59,659.659] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:31:59,660.660] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:31:59,662.662] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:31:59,663.663] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:31:59,667.667] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:31:59,668.668] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:31:59,808.808] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:31:59,809.809] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:31:59,810.810] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:31:59,811.811] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:31:59,813.813] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:31:59,814.814] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:31:59,816.816] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:31:59,816.816] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:31:59,817.817] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:31:59,817.817] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:31:59,817.817] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:31:59,817.817] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:31:59,817.817] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:31:59,817.817] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:31:59,821.821] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:31:59,825.825] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:31:59,830.830] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:31:59,831.831] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:31:59,851.851] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:31:59,915.915] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:31:59,915.915] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:32:04,716.716] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:32:04,717.717] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: [Errno 2] No such file or directory: '.\\kfc.json'
+[2026-01-05 17:32:14,319.319] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:32:18,634.634] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:32:18,636.636] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:32:18,637.637] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:32:18,637.637] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:32:18,638.638] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:32:18,638.638] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:32:18,638.638] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:32:18,638.638] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:32:18,641.641] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:32:18,641.641] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:32:18,645.645] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:32:18,645.645] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:32:18,646.646] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:32:18,646.646] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:32:18,646.646] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:32:18,647.647] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:32:18,647.647] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:32:18,648.648] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:32:20,770.770] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:32:20,773.773] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:32:20,871.871] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:32:20,871.871] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:32:20,872.872] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:32:20,872.872] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:32:20,873.873] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:32:20,873.873] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:32:20,873.873] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:32:20,874.874] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:32:20,874.874] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:32:20,874.874] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:32:20,874.874] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:32:20,875.875] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:32:20,875.875] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:32:20,875.875] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:32:20,876.876] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:32:20,876.876] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:32:20,876.876] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:32:20,876.876] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:32:20,876.876] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:32:20,877.877] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:32:20,877.877] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:32:20,877.877] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:32:21,395.395] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:32:21,396.396] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:32:21,398.398] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:32:21,398.398] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:32:21,402.402] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:32:21,403.403] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:32:21,545.545] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:32:21,546.546] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:32:21,547.547] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:32:21,548.548] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:32:21,551.551] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:32:21,552.552] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:32:21,555.555] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:32:21,559.559] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:32:21,559.559] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:32:21,559.559] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:32:21,559.559] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:32:21,560.560] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:32:21,560.560] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:32:21,560.560] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:32:21,567.567] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:32:21,573.573] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:32:21,581.581] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:32:21,583.583] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:32:21,606.606] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:32:21,687.687] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:32:21,688.688] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:32:24,288.288] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:32:24,288.288] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: [Errno 2] No such file or directory: './kfc.json'
+[2026-01-05 17:34:36,811.811] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:34:39,082.082] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:34:39,085.085] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:34:39,085.085] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:34:39,085.085] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:34:39,086.086] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:34:39,086.086] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:34:39,086.086] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:34:39,086.086] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:34:39,089.089] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:34:39,089.089] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:34:39,093.093] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:34:39,093.093] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:34:39,094.094] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:34:39,094.094] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:34:39,094.094] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:34:39,095.095] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:34:39,095.095] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:34:39,096.096] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:34:42,006.006] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:34:42,008.008] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:34:42,127.127] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:34:42,127.127] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:34:42,128.128] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:34:42,129.129] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:34:42,129.129] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:34:42,130.130] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:34:42,131.131] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:34:42,131.131] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:34:42,132.132] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:34:42,132.132] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:34:42,132.132] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:34:42,133.133] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:34:42,133.133] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:34:42,133.133] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:34:42,134.134] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:34:42,134.134] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:34:42,134.134] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:34:42,135.135] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:34:42,135.135] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:34:42,136.136] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:34:42,136.136] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:34:42,136.136] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:34:42,681.681] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:34:42,682.682] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:34:42,684.684] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:34:42,684.684] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:34:42,688.688] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:34:42,689.689] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:34:42,844.844] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:34:42,846.846] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:34:42,850.850] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:34:42,850.850] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:34:42,855.855] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:34:42,859.859] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:34:42,867.867] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:34:42,872.872] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:34:42,872.872] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:34:42,872.872] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:34:42,873.873] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:34:42,873.873] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:34:42,874.874] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:34:42,876.876] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:34:42,889.889] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:34:42,914.914] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:34:42,924.924] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:34:42,930.930] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:34:43,001.001] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:34:43,100.100] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:34:43,100.100] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:34:56,546.546] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:34:56,548.548] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:34:56,549.549] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:34:56,549.549] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:34:56,549.549] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:34:56,550.550] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:34:56,550.550] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:34:56,550.550] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:34:56,550.550] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:34:56,551.551] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:34:56,556.556] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:34:56,557.557] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:34:56,557.557] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:34:56,558.558] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:34:56,558.558] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:34:56,558.558] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:34:56,559.559] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:34:56,560.560] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:34:59,544.544] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:34:59,546.546] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:34:59,635.635] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:34:59,635.635] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:34:59,636.636] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:34:59,637.637] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:34:59,637.637] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:34:59,637.637] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:34:59,638.638] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:34:59,638.638] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:34:59,638.638] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:34:59,639.639] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:34:59,639.639] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:34:59,639.639] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:34:59,639.639] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:34:59,640.640] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:34:59,640.640] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:34:59,640.640] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:34:59,640.640] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:34:59,641.641] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:34:59,641.641] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:34:59,641.641] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:34:59,641.641] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:34:59,641.641] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:35:00,113.113] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:35:00,114.114] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:35:00,116.116] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:35:00,116.116] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:35:00,118.118] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:35:00,118.118] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:35:00,242.242] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:35:00,243.243] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:35:00,245.245] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:35:00,245.245] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:35:00,248.248] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:35:00,249.249] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:35:00,251.251] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:35:00,251.251] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:35:00,252.252] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:35:00,252.252] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:35:00,252.252] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:35:00,252.252] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:35:00,252.252] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:35:00,252.252] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:35:00,256.256] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:35:00,260.260] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:35:00,265.265] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:35:00,266.266] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:35:00,285.285] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:35:00,352.352] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:35:00,352.352] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:35:13,089.089] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:35:13,089.089] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: [Errno 2] No such file or directory: 'kfc.json'
+[2026-01-05 17:38:31,053.053] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:38:37,185.185] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:38:37,188.188] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:38:37,189.189] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:38:37,189.189] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:38:37,190.190] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:38:37,190.190] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:38:37,190.190] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:38:37,195.195] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:38:37,197.197] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:38:37,197.197] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:38:37,203.203] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:38:37,204.204] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:38:37,205.205] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:38:37,206.206] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:38:37,206.206] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:38:37,206.206] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:38:37,207.207] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:38:37,208.208] INFO     Client 'client.py:320' | Bot 已经正常退出
+[2026-01-05 17:38:39,224.224] INFO     Config 'config.py:404' | [BOTQQ]: 3032969320 | [WSURI]: ws://localhost:3001 | [WS_TOKEN]: NcatBot | [ROOT]: 1371695636 | [WEBUI]: http://127.0.0.1:6099/ | [WEBUI_TOKEN]: 95i79V%{}R<:CZtp
+[2026-01-05 17:38:39,226.226] INFO     Config 'config.py:111' | 配置已保存到 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\config.yaml
+[2026-01-05 17:38:39,320.320] INFO     SystemManager 'system_manager.py:162' | 文件监视守护线程已启动
+[2026-01-05 17:38:39,320.320] INFO     SystemManager 'system_manager.py:59' | 启动文件监视线程，监视目录: plugins
+[2026-01-05 17:38:39,321.321] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\bot.py
+[2026-01-05 17:38:39,321.321] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\BOT\__init__.py
+[2026-01-05 17:38:39,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\hello_plugin.py
+[2026-01-05 17:38:39,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\hello_plugin\__init__.py
+[2026-01-05 17:38:39,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:38:39,322.322] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\__init__.py
+[2026-01-05 17:38:39,323.323] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\what_to_eat.py
+[2026-01-05 17:38:39,323.323] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\吃什么\__init__.py
+[2026-01-05 17:38:39,324.324] INFO     PluginLoader 'loader.py:339' | 已加载内置插件数 [2]
+[2026-01-05 17:38:39,324.324] INFO     PluginLoader 'loader.py:353' | 从 C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins 导入插件
+[2026-01-05 17:38:39,324.324] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\poke_reply.py
+[2026-01-05 17:38:39,324.324] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\戳一戳\__init__.py
+[2026-01-05 17:38:39,324.324] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\getSong_api.py
+[2026-01-05 17:38:39,325.325] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\searchSong_api.py
+[2026-01-05 17:38:39,325.325] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\song.py
+[2026-01-05 17:38:39,325.325] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\点歌\__init__.py
+[2026-01-05 17:38:39,325.325] INFO     PluginLoader 'loader.py:133' | 正在加载模块: BOT from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\BOT
+[2026-01-05 17:38:39,326.326] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\getVoice_api.py
+[2026-01-05 17:38:39,326.326] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\voice.py
+[2026-01-05 17:38:39,326.326] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\转音频\__init__.py
+[2026-01-05 17:38:39,794.794] INFO     PluginLoader 'loader.py:135' | 模块 BOT 加载成功
+[2026-01-05 17:38:39,795.795] INFO     PluginLoader 'loader.py:133' | 正在加载模块: hello_plugin from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\hello_plugin
+[2026-01-05 17:38:39,797.797] INFO     PluginLoader 'loader.py:135' | 模块 hello_plugin 加载成功
+[2026-01-05 17:38:39,797.797] INFO     PluginLoader 'loader.py:133' | 正在加载模块: KFC_VME50 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\KFC_VME50
+[2026-01-05 17:38:39,801.801] INFO     PluginLoader 'loader.py:135' | 模块 KFC_VME50 加载成功
+[2026-01-05 17:38:39,802.802] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 吃什么 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\吃什么
+[2026-01-05 17:38:39,928.928] INFO     PluginLoader 'loader.py:135' | 模块 吃什么 加载成功
+[2026-01-05 17:38:39,929.929] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 戳一戳 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\戳一戳
+[2026-01-05 17:38:39,930.930] INFO     PluginLoader 'loader.py:135' | 模块 戳一戳 加载成功
+[2026-01-05 17:38:39,931.931] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 点歌 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\点歌
+[2026-01-05 17:38:39,934.934] INFO     PluginLoader 'loader.py:135' | 模块 点歌 加载成功
+[2026-01-05 17:38:39,935.935] INFO     PluginLoader 'loader.py:133' | 正在加载模块: 转音频 from C:\Users\DELL Vostro\Desktop\napcat\尝试制作\plugins\转音频
+[2026-01-05 17:38:39,937.937] INFO     PluginLoader 'loader.py:135' | 模块 转音频 加载成功
+[2026-01-05 17:38:39,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「BOT」
+[2026-01-05 17:38:39,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「hello_plugin」
+[2026-01-05 17:38:39,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「KFC_VME50」
+[2026-01-05 17:38:39,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「吃什么」
+[2026-01-05 17:38:39,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「戳一戳」
+[2026-01-05 17:38:39,938.938] INFO     PluginLoader 'loader.py:322' | 加载插件「点歌」
+[2026-01-05 17:38:39,939.939] INFO     PluginLoader 'loader.py:322' | 加载插件「转音频」
+[2026-01-05 17:38:39,943.943] INFO     DeepSeekPersonality 'bot.py:85' | BOT 插件加载完成（配置内置）
+[2026-01-05 17:38:39,949.949] INFO     WhatToEat 'what_to_eat.py:42' | 吃什么 已加载
+[2026-01-05 17:38:39,953.953] INFO     PluginLoader 'loader.py:378' | 已加载插件数 [9]
+[2026-01-05 17:38:39,954.954] INFO     ncatbot.core.adapter.nc.launch 'launch.py:110' | 正在以本地模式运行, 检查中...
+[2026-01-05 17:38:39,973.973] INFO     ncatbot.core.adapter.nc.launch 'launch.py:73' | napcat 服务器 ws://localhost:3001 在线, 正在检查账号状态...
+[2026-01-05 17:38:40,040.040] INFO     Adapter 'adapter.py:92' | NapCat WebSocket 连接成功
+[2026-01-05 17:38:40,040.040] INFO     Client 'client.py:121' | Bot 3032969320 启动成功
+[2026-01-05 17:38:44,735.735] INFO     ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:193' | 命令前缀集合: ['/', '!']
+[2026-01-05 17:38:44,736.736] ERROR    ncatbot.plugin_system.builtin_plugin.unified_registry.plugin 'plugin.py:112' | 执行函数 kfc 时发生错误: Expecting value: line 1 column 1 (char 0)
+[2026-01-05 17:39:07,499.499] INFO     SystemManager 'system_manager.py:34' | 检测到文件变化: plugins\KFC_VME50\KFC_V50.py
+[2026-01-05 17:39:08,578.578] INFO     Adapter 'adapter.py:209' | NapCat WebSocket 连接已关闭
+[2026-01-05 17:39:08,589.589] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 system_manager 卸载成功
+[2026-01-05 17:39:08,590.590] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 unified_registry 卸载成功
+[2026-01-05 17:39:08,590.590] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 BOT 卸载成功
+[2026-01-05 17:39:08,591.591] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 hello_plugin 卸载成功
+[2026-01-05 17:39:08,591.591] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 KFC_VME50 卸载成功
+[2026-01-05 17:39:08,592.592] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 吃什么 卸载成功
+[2026-01-05 17:39:08,596.596] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 戳一戳 卸载成功
+[2026-01-05 17:39:08,596.596] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 点歌 卸载成功
+[2026-01-05 17:39:08,597.597] INFO     ncatbot.plugin_system 'ncatbot_plugin.py:22' | 插件 转音频 卸载成功
+[2026-01-05 17:39:08,601.601] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 KFC_VME50 (共 2 个模块)
+[2026-01-05 17:39:08,601.601] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 BOT (共 2 个模块)
+[2026-01-05 17:39:08,601.601] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 吃什么 (共 2 个模块)
+[2026-01-05 17:39:08,602.602] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 hello_plugin (共 2 个模块)
+[2026-01-05 17:39:08,602.602] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 戳一戳 (共 2 个模块)
+[2026-01-05 17:39:08,602.602] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 转音频 (共 3 个模块)
+[2026-01-05 17:39:08,603.603] INFO     PluginLoader 'loader.py:102' | 成功卸载模块 点歌 (共 4 个模块)
+[2026-01-05 17:39:08,603.603] INFO     Client 'client.py:320' | Bot 已经正常退出

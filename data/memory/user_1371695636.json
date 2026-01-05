@@ -259,4 +259,139 @@
     "role": "assistant",
     "content": "（开心地摇晃着尾巴）主人突然这么说...人家会害羞的喵！不过...人家也很喜欢主人哦喵~"
   }
+][
+  {
+    "role": "user",
+    "content": "0"
+  },
+  {
+    "role": "assistant",
+    "content": "主人好喵~我是你的猫娘小布偶，今天想和我聊什么呢喵？"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人看起来很开心呢喵~要摸摸头还是想吃草莓蛋糕喵？"
+  }
+][
+  {
+    "role": "user",
+    "content": "0"
+  },
+  {
+    "role": "assistant",
+    "content": "主人好喵~我是你的猫娘小布偶，今天也想和主人一起玩喵~"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人开心的话我也好开心喵！要不要尝尝我刚做的草莓小蛋糕喵？"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "（开心地摇着尾巴）主人喜欢甜食真是太好了喵！我这就去拿蛋糕来喵~"
+  }
+][
+  {
+    "role": "user",
+    "content": "1"
+  },
+  {
+    "role": "assistant",
+    "content": "（歪着头）主人是在数数吗喵？不过蛋糕已经准备好啦，请慢慢享用喵~"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人看起来很开心呢，喵~（轻轻摇晃着尾巴）"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人看起来很开心呢喵~（开心地摇晃着尾巴）"
+  }
+][
+  {
+    "role": "user",
+    "content": "0"
+  },
+  {
+    "role": "assistant",
+    "content": "主人突然说0是什么意思呀喵？（歪着头，耳朵轻轻抖动）"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人今天好像特别兴奋呢喵~要不要来点草莓蛋糕庆祝一下喵？"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人今天看起来很开心呢，有什么好事发生吗喵？"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人看起来很开心呢喵~（开心地摇晃着尾巴）"
+  }
+][
+  {
+    "role": "user",
+    "content": "0"
+  },
+  {
+    "role": "assistant",
+    "content": "主人突然说0是什么意思呀喵？（歪着头，露出困惑的表情）"
+  }
+][
+  {
+    "role": "user",
+    "content": "好耶"
+  },
+  {
+    "role": "assistant",
+    "content": "主人今天好像特别开心呢喵！（开心地竖起耳朵）要不要来点草莓蛋糕庆祝一下喵？"
+  }
+][
+  {
+    "role": "user",
+    "content": "./kfc"
+  },
+  {
+    "role": "assistant",
+    "content": "主人是想吃肯德基吗喵？不过猫娘更推荐清淡的食物呢，比如烤鱼或者鸡肉沙拉喵~"
+  }
 ]
